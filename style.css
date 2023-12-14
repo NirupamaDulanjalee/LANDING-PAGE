@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Bahnschrift Condensed;
+    background-color: #f7f7f7; 
+  }
+  .headerSection{
+    width: 100%;
+    height: 3rem;
+    background-image: linear-gradient(-90deg, #de40bb, #feb75b);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  #social-icons{
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    display: inline-flex;
+    justify-items: center;
+    align-items: justify; 
+
+
+  }
+  #social-icons .fa{
+    color: white;
+    padding: 0.75rem; 
+    border-left: 2px solid white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .contact-details{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.contact-details p,a{
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-details p:first-child {
+    border-right: 2px solid white;
+}
+.button-request{
+    position: relative;
+    margin-right: 1.5rem;
+    display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+    overflow: hidden;
+    
+}
+.button-request p{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/****************************/
+
+nav{
+    width: auto;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    margin-left: 10rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+}
+nav img{
+    max-width: 150px;
+}
+nav .search-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav .search-tag .buy {
+    background-color: gold;
+    padding: 1.15rem 0.5rem;
+    position: relative;
+}
+nav .search-tag a{
+    text-decoration: none;
+    color: black;
+    padding: 1.15rem 0.75rem;
+
+}
+
+nav .search-tag a:hover{
+    background-color: gold;
+}
+nav .search-logo{
+    position: relative;
+    margin-right: 10rem;
+    background-color: black;
+    padding:  1.15rem 0.5rem;
+    color: white;
+}
+nav .search-logo:hover{
+    cursor: pointer;
+}
+/****************************/
+.img-slider {
+    background-image: url('images/slide3.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 100px 50px; 
+    color: #fff; 
+  }
+  .img-slider .name-details{
+    
+        position: relative;
+        left:5rem;
+        top: 2rem;
+        border-left: 5px solid;
+        border-image: linear-gradient(to bottom, #feb75b 10%, #de40bb 90%);
+        border-image-slice: 1;
+        
+        padding-left: 20px;
+        color: white;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    
+  }
+  
+  .img-slider h1 {
+    font-size: 48px; 
+    margin-bottom: 0.5px;
+    font-weight: lighter;
+    
+  }
+  
+  .img-slider h6 {
+    font-family: 'Bahnschrift Condensed', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+  }
+  
+  .img-slider button {
+    padding: 10px 20px;
+    background-color: #fff; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    
+  }
+  .img-slider .b1{
+    border-radius: 15px;
+    padding: 5px;
+    background-image: linear-gradient(-90deg, #de40bb, #feb75b);
+  }
+  .img-slider .b2{
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    background: none;
+  }
+  /****************************/
+  .service{
+    
+    width: 100%;
+    height: 12rem;
+    background-image: linear-gradient(-90deg, #de40bb, #feb75b);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 120px;
+    margin-bottom: 30px;
+}
+.service .inside-service{
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.service .inside-service:first-child{
+
+    margin-left: 10px;
+}
+.service .inside-service p{
+    margin-top: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+        overflow: hidden;
+}
+.service div .icon-heading span{
+    position: relative;
+    margin-left: 20px;
+    font-size:larger;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+        overflow: hidden;
+}
+.service .inside-service i{
+    border: 2px solid white;    
+    border-radius: 50%;
+    padding: 10px;
+  
+}
+  /****************************/
+  #about {
+        background-image: url(./images/map-background.jpg);
+        background-size: cover;
+        height: 40rem;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 0 20px; 
+        overflow-x: hidden;
+        margin-bottom: 30px;
+}
+
+#about .about-text {
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#about .about-image {
+    margin-right: 12rem;
+    height: 100px;
+    width: auto;
+    border: 5px solid;
+    border-image: linear-gradient(to bottom, #feb75b, #de40bb 90%);
+    border-image-slice: 1;
+    margin-top: 18rem;
+    margin-left: 0rem;
+}
+
+#about .about-image img {
+    margin-top: -20rem;
+    margin-left: -0.8rem;
+}
+
+#about .about-text h1 {
+    position: relative;
+    top: -50px;
+    font-size: 3rem;
+    font-family: 'Bahnschrift Condensed';
+
+    
+}
+
+#about .about-text h1 .underline {
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #feb75b 10%, #de40bb 90%);
+    border-image-slice: 1;
+    padding-bottom: 17px;
+}
+
+#about .about-text h2{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+        overflow: hidden;
+}
+
+#about .about-text p {
+    line-height: 2rem;
+    margin-bottom: 5px;
+    display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+    overflow: hidden;
+}
+#about .b{
+    padding: 10px 20px;
+    background-color: #fff; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+    background-image: linear-gradient(-90deg, #de40bb, #feb75b);
+}
+  /****************************/
+  #service {
+    
+    width: 100%;
+    height: 40rem;
+    background: rgb(165, 165, 165);
+    background-image: url(./images/map-background.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+}
+#service h1{ 
+    margin-left:auto;
+    position: relative;
+    top: 5rem;
+    left: 6rem;
+    font-size: 3rem;
+    font-family:Bahnschrift Condensed;   
+}
+
+#service  .underline{
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #feb75b 10%, #de40bb 90%);
+    border-image-slice: 1;
+    padding-bottom: 17px;
+}
+#service .service-image{
+    position: relative;
+    top: 10rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+#service .service-image  .square{
+    width: 220px;
+    height: 50px;
+    border: 2px solid rgb(247, 247, 247);
+    position: relative;
+    left: 80px;
+    top:-30px;
+    background-color: white;
+    box-shadow: rgb(0, 0, 0);
+    text-align: start;
+
+
+
+}
+#service .service-image  .square i{
+    border: none;
+    padding: 1.2rem;
+    border-radius: 50%;
+    margin-left: -1.5rem;
+    margin-top: -0.2rem;
+    background: linear-gradient(to right, #feb75b 10%, #de40bb 90%);
+    color: white;
+}
+
+#service .create{
+    text-align: center;
+    margin-top: 13rem;
+    background: gray;
+}
